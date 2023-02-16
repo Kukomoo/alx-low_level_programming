@@ -6,5 +6,6 @@
  */
 int main(void)
 {
+	printf("alx rocks");
 	return (0);
 }
