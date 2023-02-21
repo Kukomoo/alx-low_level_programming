@@ -8,13 +8,13 @@
  */
 int _islower(int c)
 {
-	int y = 1;
-	int n = 0;
+	int d = 1;
+	int f = 0;
 
 	if (c <= 'z' && c >= 'a')
-	_putchar(y);
+	_putchar(d);
 	else
 {
-	_putchar(n);
+	_putchar(f);
 	}
 }
