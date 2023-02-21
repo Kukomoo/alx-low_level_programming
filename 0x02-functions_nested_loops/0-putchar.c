@@ -1,16 +1,21 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
 /**
- * main - This prints _putchar
+ * main - This prints _putchar followed by a new line.
  * Retrun: This returns 0 
  */
-void trim(char *s);
 
 int main(void)
-{char x[20] = "_putchar\n";
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	for (int i = 0; i < strlen(x); i++)
-	{ putchar(x[i]); }
 	return (0);
 }
