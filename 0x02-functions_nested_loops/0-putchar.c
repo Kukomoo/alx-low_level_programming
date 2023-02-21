@@ -1,13 +1,11 @@
 #include "main.h"
-
 /**
- * main - This prints _putchar followed by a new line.
- * Retrun: This returns 0 
+ * main - Entry point
+ * Description: 'This prints _putchar followed by a new line'
+ * Retrun: 0
  */
-
 int main(void)
-{
-	_putchar('_');
+{ _putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
