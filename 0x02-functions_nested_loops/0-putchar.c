@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: 'This prints _putchar followed by a new line'
- * Retrun: 0
+ * main - prints _putchar followed by a new line'
+ * Return: 0 if Success
  */
 int main(void)
 { _putchar('_');
