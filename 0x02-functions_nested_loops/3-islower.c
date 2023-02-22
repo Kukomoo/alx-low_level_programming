@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main - check the code
- * _islower - used to check if character is lowcase
- * int c is used to declare c
- *
- * Return: Always 0.
+ * _islower - this is the function name _islower
+ * description - checks for the lower alphabet
+ * Return: 1 if true 0 if false
+ * @c: first operand
  */
 int _islower(int c)
 {

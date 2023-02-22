@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
- *
- * Return: ALways 0
+ * print_to_98 - this is the function name
+ * description - prints until 98
+ * @n: first operand
  */
 void print_to_98(int n)
 {

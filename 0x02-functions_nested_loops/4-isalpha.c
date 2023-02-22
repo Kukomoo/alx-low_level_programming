@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _isalpha - this is the function name _isalpha
+ * description - prints upercase and lowercase alphabet
+ * Return: 1 if true 0 if false
+ * @c: first operand
  */
 
 int _isalpha(int c)

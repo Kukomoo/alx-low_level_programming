@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0
+ * _abs - this is the function name _abs
+ * description - checks if n is more than 0
+ * Return: n if true -n if false
+ * @n: first operand
  */
 
 int _abs(int n)

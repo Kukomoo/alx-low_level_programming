@@ -1,9 +1,7 @@
 #include "main.h"
- /**
- *  main - check the code
- *  print_alphabet - Prints "a-z"
- *
- * Return: Always 0.
+/**
+ * print_alphabet - this is the function name print_alphabet
+ * description - prtints the alphabet 1 time
  */
 void print_alphabet(void)
 {
