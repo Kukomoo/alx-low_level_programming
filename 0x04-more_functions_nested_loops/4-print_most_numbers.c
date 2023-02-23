@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_numbers - this is the function name
- * description - this function prints from 0 to 9
+ * print_most_numbers - this is the function name
+ * description - this function prints from 0 to 9 excluding 2 & 4
  */
-void print_numbers_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
