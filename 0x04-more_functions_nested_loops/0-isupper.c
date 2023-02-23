@@ -1,4 +1,5 @@
 #include "main.h"
+
 /* 
  * int _isupper(int c) - this is the function name
  * description - it checks for uppercsdr character
@@ -8,7 +9,7 @@
 int _isupper(int c)
 
 {
-	if ( c <= 'Z' && c >= 'A')
+	if (( c <= 'Z') && (c >= 'A'))
 	{ 
 		return (1);
 	}
