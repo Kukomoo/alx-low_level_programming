@@ -14,6 +14,10 @@ void more_numbers(void)
 			{
 				_putchar('0'+ i);
 			}
-	_putchar('\n');
+			if (count != 10)
+			{
+				_putchar('\n');
+			}	
+
 	}
 }
