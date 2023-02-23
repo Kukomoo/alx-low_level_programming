@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
- * _isupper - this is the function name
- * description - it checks for uppercsdr character
- * @c - first opreator
+ * _isupper - this is the function name _isupper
+ * description - _isupper checks for uppercase character
+ * @c: first operand
  * Return: 1 if c is upper case else 0
  */
 int _isupper(int c)
