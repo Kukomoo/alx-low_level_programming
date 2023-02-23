@@ -3,7 +3,6 @@
  * print_line - the function name
  * description - this draws a line
  * @n: first operand
- * @count: 2nd operand
  */
 void print_line(int n)
 {
