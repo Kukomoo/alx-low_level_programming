@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_rev - function name
- * description - prints a string in reverse 
- * @s - first pointer
+ * description - prints a string in reverse
+ * @s: first pointer
  */
 void print_rev(char *s)
 {
@@ -11,7 +11,7 @@ void print_rev(char *s)
 
 	while (s[string])
 		string++;
-	for (r = string - 1; r >=0; r--)
+	for (r = string - 1; r >= 0; r--)
 		_putchar(s[r]);
 	_putchar('\n');
 }
