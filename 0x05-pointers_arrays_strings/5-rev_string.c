@@ -18,3 +18,4 @@ void rev_string(char *s)
 		s[x] = s[string - x - 1];
 		s[string - x - 1] = null;
 	}
+}
