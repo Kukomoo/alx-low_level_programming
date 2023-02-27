@@ -14,7 +14,7 @@ void rev_string(char *s)
 		string++;
 	for (x = 0; x < string / 2; x++)
 	{
-		null = s[x]
+		null = s[x];
 		s[x] = s[string - x - 1];
 		s[string - x - 1] = null;
 	}
