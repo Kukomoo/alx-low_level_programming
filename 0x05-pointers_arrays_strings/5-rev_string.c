@@ -4,7 +4,7 @@
  * description - reverses a string
  * @s: pointer
  */
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	int string = 0;
 	int x;
