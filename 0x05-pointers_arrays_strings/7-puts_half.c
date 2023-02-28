@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * puts_half - function name
- * description - prints half of a string 
- * @str - operator
+ * description - prints half of a string
+ * @str: pointer
  */
 void puts_half(char *str)
 {
@@ -12,10 +12,10 @@ void puts_half(char *str)
 
 	while (str[string] != '\0')
 		string++;
-	if (string % 2 == 0 )
+	if (string % 2 == 0)
 		y = string / 2;
 	else
-		y = (string + 1)/2;
+		y = (string + 1) / 2;
 	for (x = y; x < string; x++)
 		_putchar(str[x]);
 	_putchar('\n');
