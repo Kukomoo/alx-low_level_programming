@@ -17,7 +17,7 @@ void print_number(int n)
 	}
 	if (y / 10 != 0)
 	{
-	print_number(number / 10);
+	print_number(y / 10);
 	}
 	_putchar((y % 10) + '0');
 }
