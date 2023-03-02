@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strncat - Function namw
- * decription - concatenates two strings up till n 
+ * decription - concatenates two strings up till n
  * @dest: destination string
  * @src: appended string
  * @n: number of characters to append
