@@ -9,7 +9,6 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char *start = dest;
 	int i = 0;
 	int length = 0;
 
@@ -21,5 +20,5 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest[lenght++] = src[i];
 	}
-	return (start);
+	return (dest);
 }
