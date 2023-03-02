@@ -9,11 +9,11 @@ char *leet(char *str)
 {
 	int i = 0;
 	int y;
-	char x[10] = {'O', 'L', 'E', 'A', 'T', '?', '?', '?', '?'};
+	char x[8] = {'O', 'L', 'E', 'A', 'T', '?', '?', '?'};
 
 	while (str[i])
 	{
-		for (y = 0; y <= 9; y++)
+		for (y = 0; y <= 7; y++)
 		{
 			if (str[i] == x[y] || str[i] - 32 == x[y])
 				str[i] = y + '0';
