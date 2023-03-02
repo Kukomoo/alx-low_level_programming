@@ -2,7 +2,7 @@
 /**
  * _strncpy - Function name
  * description - this function copies a string from source to destination
- * @dest: destination 
+ * @dest: destination
  * @src: source
  * @n: number of bytes to copy
  * Return: dest
