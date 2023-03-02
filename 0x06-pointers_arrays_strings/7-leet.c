@@ -13,7 +13,7 @@ char *leet(char *str)
 
 	while (str[i])
 	{
-		for (y = 0; y <= 7; y++)
+		for (y = 0; y <= 9; y++)
 		{
 			if (str[i] == x[y] || str[i] - 32 == x[y])
 				str[i] = y + '0';
