@@ -8,9 +8,11 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
+	int x;
+
 	while (*s)
 	{
-		for (int x = 0; accept[x]; x++)
+		for (x = 0; accept[x]; x++)
 		{
 			if (*s == accept[x])
 				return (s);
