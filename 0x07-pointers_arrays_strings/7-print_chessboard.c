@@ -14,7 +14,7 @@ void print_chessboard(char (*a)[8])
 			if (y == 7)
 			{
 				_putchar(a[x][y]);
-				_putchar('\n')
+				_putchar('\n');
 			}
 			else
 				_putchar(a[x][y]);
