@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _memset - Function name
  * @s: pointer to string
@@ -6,11 +7,12 @@
  * @n: number of bytes
  * Return: a pointer
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	for (unsigned int x = 0; x < n; x++)
 	{
-		s[x] = b;
+		*s(s + x) = b;
 	}
 	return (s);
 }
