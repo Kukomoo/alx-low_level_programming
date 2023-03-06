@@ -7,9 +7,12 @@
  */
 void print_chessboard(char (*a)[8])
 {
-	for (int x = 0; x < 8; x++)
+	int x;
+	int y;
+
+	for (x = 0; x < 8; x++)
 	{
-		for (int y = 0; y < 8; y++)
+		for (y = 0; y < 8; y++)
 		{
 			if (y == 7)
 			{
