@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
  * _memcpy - function name
@@ -10,10 +10,12 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	for (unsigned int x = 0; x < n; x++)
+	char *ptr = dest;
+
+	while (n--)
 	{
-		dest[x] = src[x];
+		*dest++ = *src++;
 	}
-	return (dest);
+	return (ptr);
 }
 
