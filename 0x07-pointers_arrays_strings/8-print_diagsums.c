@@ -14,12 +14,12 @@ void print_diagsums(int *a, int size)
 	int add2 = 0;
 	int mult = size * size;
 
-	for (x <= mult)
+	while (x <= mult)
 	{
 		add1 += a[x];
 		x = x + size + 1;
 	}
-	for (y < (mult - 1))
+	while (y < (mult - 1))
 	{
 		add2 += a[y];
 		y = y + size - 1;
