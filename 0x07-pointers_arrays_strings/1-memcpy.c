@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _memcpy - function name
  * descritpion - copy memory area
@@ -7,7 +8,7 @@
  * @src: area to cp from
  * Return: pointer
  */
-char *memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	for (unsigned int x = 0; x < n; x++)
 	{
