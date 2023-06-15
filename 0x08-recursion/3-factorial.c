@@ -5,7 +5,7 @@
  * Return: factorial of a given number
  */
 #include "main.h"
-int factorial(int n);
+int factorial(int n)
 {
 	if (n < 0)
 	{
