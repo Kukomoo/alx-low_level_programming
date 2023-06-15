@@ -1,7 +1,7 @@
 /**
  * _sqrt_assist - assisting Function
  * description of _sqrt_assist - assist in finding natural square root
- * _sqrt_recursion - Function name
+ * _sqrt_recursion - Returns the natural square root of a number
  * description of _sqrt_recursion - finds  natural square root of an int
  * @n: int to find it's natural square root
  * @start: index of beginning of the search
@@ -9,7 +9,7 @@
  * Return: natural square root of int n
  */
 #include "main.h"
-int _sqrt_assist(int n, int start, int end);
+long _sqrt_assist(long n, long start, long end);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
@@ -18,11 +18,11 @@ int _sqrt_recursion(int n)
 	}
 	return (_sqrt_assist(n, 0, n));
 }
-int _sqrt_assist(int n, int start, int end)
+long _sqrt_assist(long n, long start, long end)
 {
-	int mid;
+	long mid;
 
-	int square;
+	long square;
 
 	if (start > end)
 	{
